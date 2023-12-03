@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    // allow to import json file
+    "resolveJsonModule": true,
+    // enable source maps to use webpack's source-maps in webpack configuration file
+    "sourceMap": true,
+    // allow to use import statement in tsx, ts file
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // do not emit compiler output files like JavaScript source code, source-maps or declarations.
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react"
+  },
+  "include": ["src"]
+}
